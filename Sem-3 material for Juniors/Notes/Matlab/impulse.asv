@@ -1,9 +1,0 @@
-clc;
-clear all;
-t = -1:0.1:1;
-im = ;
-title("IMPULSE");
-figure();
-stem(t,im);
-xlabel("t");
-ylabel("impulse(t)")
