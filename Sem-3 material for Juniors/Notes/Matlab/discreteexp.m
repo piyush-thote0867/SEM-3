@@ -1,0 +1,10 @@
+clear all;
+clc;
+t = -30:1:30;
+prompt = "Enter value of a";
+a =input(prompt);
+e = exp(-a*t);
+stem(t,e);
+title("Exponential function");
+xlabel("t");
+ylabel("Amplitude");

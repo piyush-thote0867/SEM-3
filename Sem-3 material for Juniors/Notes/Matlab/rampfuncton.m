@@ -1,0 +1,11 @@
+clc;
+clear all;
+t = -20:1:20;
+u(t>=0)=1;
+u(t<0)= 0;
+k=t;
+r=t.*u;
+plot(t,r);
+xlabel('t');
+ylabel("Amplitude");
+title("Ramp function");
